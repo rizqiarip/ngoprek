@@ -1,0 +1,2020 @@
+sudo apt instal -y helm
+sudo apt install -y helm
+kubectl get pod -A
+kubectl delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+helm upgrade --install ingress-nginx ingress-nginx --repo https://kubernetes.github.io/ingress-nginx --namespace ingress-nginx --create-namespace
+clear
+sudo apt install -y ca-certificates
+ls .ssh/
+ssh-keygen -t rsa
+clea
+cat .ssh/id_rsa.pub 
+cd
+ls
+cd
+ls
+history | grep clone
+kubectl get version
+kubectl cluster-version
+kubectl cluster version
+kubectl cluster-info
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+ls
+sudo chmood 700 get_helm.sh 
+./g
+ls
+./get_helm.sh
+sudo ./get_helm.sh
+ls
+sudo chmod 700 get_helm.sh 
+./get_helm.sh 
+helm install helm repo add bitnami https://charts.bitnami.com/bitnami
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm searc
+helm search repo
+helm search repo | grep nfs
+helm repo add bitnami https://charts.bitnami.com/bitnamihelm repo add stable https://charts.helm.sh/stable
+helm repo add stable https://charts.helm.sh/stable
+helm search repo | grep nfs
+helm install stable/nfs-server-provisioner --set persistence.enabled=true,persistence.size=5Gi --generate-name
+kubectl get storageclass
+kubectl describe storaeclass nfs
+kubectl describe storageclass nfs
+helm search repo | grep wordpress
+helm search repo
+helm install wordpress bitnami/wordpress --set persistence.accessMode=ReadWriteMany --set persistence.storageClass=nfs --set persistence.size=3Gi
+helm delete wordpress
+helm -h
+helm list
+helm install wordpress bitnami/wordpress --set persistence.accessMode=ReadWriteMany --set persistence.storageClass=nfs --set persistence.size=3Gi
+helm list
+helm delete wordpress
+helm list
+history
+helm list
+helm upgrade --install ingress-nginx ingress-nginx --repo https://kubernetes.github.io/ingress-nginx --namespace ingress-nginx --create-namespace
+kubectl get pod -n ingress-nginx
+kubectl --namespace ingress-nginx get services -o wide -w ingress-nginx-controller
+ip a
+kubectl get pod -A
+history | grep calico
+kubectl delete -f https://docs.projectcalico.org/manifests/tigera-operator.yaml
+kubectl get pod -A
+kubectl delete -f https://docs.projectcalico.org/manifests/tigera-operator.yaml
+history | grep calico
+kubectl delete -f https://docs.projectcalico.org/manifests/custom-resources.yaml
+kubectl get pod -A
+ip a
+kubectl get pod -A
+history | grep calico
+kubectl delete -f https://docs.projectcalico.org/manifests/tigera-operator.yaml
+kubectl delete -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/rbac-kdd.yaml
+kubectl delete -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/kubernetes-datastore/calico-networking/1.7/calico.yaml
+kubectl delete -f https://raw.githubusercontent.com/aws/amazon-vpc-cni-k8s/release-1.5/config/v1.5/calico.yaml
+kubectl get pod -A
+iptables -S
+sudo iptables -S
+echo "Flush remaining calico iptables"
+iptables-save | grep -i cali | iptables -F
+echo "Delete remaining calico iptables"
+iptables-save | grep -i cali | iptables -X
+iptables-save | grep -i cali | iptables -Xsudo echo "Flush remaining calico iptables"
+sudo iptables-save | grep -i cali | iptables -F
+sudo echo "Delete remaining calico iptables"
+sudo echo "Flush remaining calico iptables"
+sudo iptables-save | grep -i cali | iptables -F
+sudo echo "Delete remaining calico iptables"
+sudo iptables-save | grep -i cali | iptables -X
+sudo echo "Flush remaining calico iptables"
+sudo iptables-save | grep -i cali | sudo iptables -F
+sudo echo "Delete remaining calico iptables"
+sudo iptables-save | grep -i cali | sudo iptables -X
+ip a
+sudo rm $(which calicoctl)
+sudo echo "Flush remaining calico iptables" iptables-save | grep -i cali | sudo iptables -F
+sudo echo "Delete remaining calico iptables" iptables-save | grep -i cali | sudo iptables -X
+i pa
+ip a
+kubectl delete -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/rbac-kdd.yamlkubectl delete -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/kubernetes-datastore/calico-networking/1.7/calico.yaml
+history | grep calico
+kubectl create -f https://docs.projectcalico.org/manifests/tigera-operator.yaml
+kubectl create -f https://docs.projectcalico.org/manifests/custom-resources.yaml
+kubectl delete -f https://docs.projectcalico.org/manifests/tigera-operator.yaml
+kubectl delete -f https://docs.projectcalico.org/manifests/custom-resources.yaml
+ip a
+kubectl get pod -A
+ip a
+sudo echo "Flush remaining calico iptables" iptables-save | grep -i cali | sudo iptables -F
+sudo echo "Delete remaining calico iptables" iptables-save | grep -i cali | sudo iptables -X
+ip a
+kubectl get -A
+kubectl get all
+kubectl get all --name-space
+kubectl get pod -A
+helm list
+history | grep nfs
+helm delete nfs-server-provisioner-1665659796
+helm install stable/nfs-server-provisioner --set persistence.enabled=true,persistence.size=5Gi --generate-name
+kubectl get pod -A
+kubectl logs -n default nfs-server-provisioner-1665677389-0
+kubectl describe pod nfs-server-provisioner-1665677389-0 -n default
+kubectl get pod
+kubectl get pod -A
+kubectl get pv
+kubectl get pvc
+history | grep nfs
+helm list
+helm delete nfs-server-provisioner-1665677389
+kubectl get pvc
+kubectl delete pvc --all
+helm install stable/nfs-server-provisioner --set persistence.enabled=true,persistence.size=5Gi --generate-name
+kubectl get pod -A
+kubectl describe pod nfs-server-provisioner-1665678228-0 -n default
+kubectl get deployment -A
+helm list
+helm delete nfs-server-provisioner-1665678228
+kubectl get pod -A
+kubectl get pvc
+kubectl delete pvc all
+kubectl delete pvc --all
+kubectl get p
+kubectl get pv
+kubectl create deployment nginx-arip --image nginx
+kubectl get deployment
+kubectl get pod
+ping 8.8.8.8
+kubectl get pod
+kubectl describe pod nginx-arip-6f6746cb6d-wbrt9
+kubectl get deployment
+kubectl delete deploment nginx-arip
+kubectl delete deployment nginx-arip
+kubectl create -f https://docs.projectcalico.org/manifests/tigera-operator.yaml
+kubectl create -f https://docs.projectcalico.org/manifests/custom-resources.yaml
+kubectl create deployment nginx-arip --image nginx
+kubectl get pod
+kubectl get pod -w
+kubectl describe pod nginx-arip-6f6746cb6d-9mp6j
+kubectl get pod -w
+kubectl describe pod nginx-arip-6f6746cb6d-9mp6j
+ip a
+kubectl get pod
+kubectl get deployment
+kubectl expose deployment nginx-arip --type=NodePort --port 80
+kubectl get svc
+kubectl create ingress
+kubectl create ingress -h
+kubectl create ingress simple --rule="nginx.arip=nginx-arip:8080"
+kubectl create ingress simple --rule="nginx.arip=nginx-arip:80"
+kubectl create ingress simple --rule="nginx.arip/=nginx-arip:80"
+kubectl get ing
+kubectl delete ing simple
+kubectl create ingress ing-nginx --rule="nginx.arip/=nginx-arip:80"
+kubeectl get ing
+kubectl get ing
+kubectl get svc
+curl 10.105.77.226
+curl nginx.arip
+kubectl get ing
+sudo nano /etc/hosts
+curl nginx.arip
+kubectl delete ing-nginx
+kubectl delete ing ing-nginx
+curl nginx.arip
+kubectl get deploy
+kubectl delete deplo nginx-arip
+kubectl delete deploy nginx-arip
+kubectl get svc
+kubectl delete svc nginx-arip
+kubectl get ing
+kubectl get --all
+kubectl get -a
+kubectl get -A
+kubectl get all
+kubectl get pod -A
+helm listt
+helm list
+history | grep nginx
+helm list
+helm list --all
+helm list -n ingress-nginx
+helm delete ingress-nginx -n ingress-nginx
+kubectl get pod -A
+kubectl get ing
+sudo systemctl status nfs-server
+sudo apt install nfs-kernel-server nfs-common portmap
+sudo start nfs-server
+sudo systemctl start nfs-server
+sudo systemctl status nfs-server
+history
+mkdir -p /srv/nfs/mydata
+sudo mkdir -p /srv/nfs/mydata
+chmod -R 777 /srv/nfs/
+sudo chmod -R 777 /srv/nfs/
+sudo echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" >> /etc/exports
+sudo sudo echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" >> /etc/exports
+sudo echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" >> /etc/exports
+sudo echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" >> sudo /etc/exports
+sudo cat /etc/exports 
+echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" >> /etc/exports
+echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" > /etc/exports
+sudo echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" > /etc/exports
+sudo cat "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" > /etc/exports
+ls
+ls -ll
+ls -l
+cd /etc/
+ls
+cd
+sudo echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" >> /etc/exports
+sudo echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" >> exports
+sudo echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" >> etc/exports
+sudo echo "/srv/nfs/mydata  *(rw,sync,no_subtree_check,no_root_squash,insecure)" >> /etc/exports
+sudo nano /etc/exports 
+history
+ls /srv/
+ls /srv/nfs/mydata/
+ls /srv/nfs/
+rm -rf sudo 
+sudo nano exports 
+rm exports 
+rm -rf /srv/
+sudo rm -rf /srv/
+ls
+ls -l
+history | grep mkdir
+mkdir -p /data
+sudo mkdir -p /data
+sudo rm -rf /d
+sudo rm -rf /data/
+ls
+sudo mkdir data
+ls
+sudo mkdir /data
+ls
+cd data/
+cd
+cd /data/
+cd
+rm -rf data/
+cd /d
+cd /data/
+cd
+sudo nano /etc/exports 
+sudo exportfs -rv
+showmount -e
+helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/
+helm install nfs nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --set nfs.server=10.8.60.227 --set nfs.path=/data --set storageClass.name=nfs --set storageClass.defaultClass=true -n nfs --create-namespace
+ip a
+ls /data/
+chmod -R 777 /data
+sudo chmod -R 777 /data
+kubectl get all
+helm install nfs nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --set nfs.server=10.8.60.227 --set nfs.path=/data --set storageClass.name=nfs --set storageClass.defaultClass=true -n nfs --create-namespace
+helm list
+helm list --all-namespace
+helm list --all-namespaces
+helm delete nfs 
+helm delete nfs -n nfs
+helm install nfs nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --set nfs.server=10.8.60.227 --set nfs.path=/data --set storageClass.name=nfs --set storageClass.defaultClass=true -n nfs --create-namespace
+showmount -e
+ls /data/
+helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+helm repo update
+helm install ingress ingress-nginx/ingress-nginx --set controller.service.loadBalancerIP=10.8.60.227 -n ingress --create-namespace
+kubectl create deployment nginx-app --image=nginx
+kubectl delete deployment nginx-app
+kubectl create deployment nginx-arip --image=nginx
+helm repo add metallb https://metallb.github.io/metallb
+helm repo update
+sudo nano address-pool.yaml
+helm install metallb metallb/metallb -f address-pool.yaml -n metallb --create-namespace
+helm repo add metallb https://metallb.github.io/metallb
+helm install metallb metallb/metallb
+kubectl edit csv metallb-operator
+sudo nano l2.yaml
+kubectl create -f l2.yaml 
+history
+ip a
+kubectl get svc
+kubectl expose deployment nginx-arip
+kubectl expose deployment nginx-arip --port 80
+kubectl get svc
+history | grep nginx
+kubectl create deployment apache-arip --image=httpd
+kubectl get pod
+kubectl get pod -w
+helm list
+helm delete metallb
+kubectl get pod -w
+kubectl expose deployment apache-arip
+kubectl expose deployment apache-arip --port 81
+kubectl get svc
+history | grep 192
+kubectl delete all -l apache-arip
+kubectl delete svc apache-arip nginx-arip
+kubectl delete deployment apache-arip nginx-arip
+kubectl get all
+kubectl get all --all-namespaces
+helm list -n nfs
+helm delete nfs -n nfs
+history | grep nfs
+helm install nfs nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --set nfs.server=10.8.60.227 --set nfs.path=/data --set storageClass.name=nfs --set storageClass.defaultClass=true -n nfs --create-namespace
+kubectl get all -n nfs
+kubectl describe pod -n nfs nfs-nfs-subdir-external-provisioner-78f8c46685-rnffc
+helm delete nfs -n nfs
+sudo systemctl status nfs
+sudo systemctl status nfs-server
+mkdir -p /nfs-data
+sudo mkdir -p /nfs-data
+sudo chmod -R 777 /nfs-data/
+sudo nano /etc/exports 
+sudo exportfs -rv
+shomount -e
+showmount -e
+helm install nfs nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --set nfs.server=10.8.60.227 --set nfs.path=/nfs-data --set storageClass.name=nfs --set storageClass.defaultClass=true -n nfs --create-namespace
+kubectl get all -n nfs
+helm delete nfs -n nfs
+sudo rm -rf /data/
+sudo nano /etc/exports 
+sudo exportfs -rv
+showmount -e
+helm delete nfs -n nfs
+helm list 
+helm list -n nfs
+helm install nfs nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --set nfs.server=10.8.60.228 --set nfs.path=/data --set storageClass.name=nfs --set storageClass.defaultClass=true -n nfs --create-namespace
+kubectl get all -n nfs
+ping 10.8.60.228
+kubectl get all -n nfs
+kubectl describe pod -n nfs nfs-nfs-subdir-external-provisioner-748f4c8565-dnk4x
+kubectl get all -n nfs
+cd /data
+kubectl get pod
+kubectl create deploment nginx-arip --image nginx
+kubectl create deploment nginx-arip --image=nginx
+kubectl create deployment nginx-arip --image nginx
+kubectl get pod
+kubectl get sc
+kubectl get pod
+kubectl exec -it nginx-arip-6f6746cb6d-qbst9
+kubectl exec -it nginx-arip-6f6746cb6d-qbst9 bash
+mount -t nfs 10.8.60.228:/data /data
+sudo mount -t nfs 10.8.60.228:/data /data
+sudo mount -t nfs 10.8.60.228:/data /mnt
+ls /mnt/
+touch /mnt/tes-2
+history
+helm list --all-namespaces
+kubectl get pod -A
+kubectl get nodes
+history
+history | grep balton
+history | grep balto
+top
+kubectl get pod
+kubectl exec -it nginx-arip-6f6746cb6d-qbst9 bsah
+kubectl exec -it nginx-arip-6f6746cb6d-qbst9 bash
+history
+kubectl exec -it nginx-arip-6f6746cb6d-qbst9 bash
+kubectl get pod -o wide
+ip a
+ping 10.8.60.228
+showmount -e
+showmount -e 10.8.60.228
+df -Ht /mnt/
+df -Ht /mnt/tes-1 
+df -Ht /mnt/
+df -Ht /mnt
+sudo umount /mnt 
+df -Ht /mnt
+sudo mount -t nfs 10.8.60.228:/data /mnt
+df -Ht /mnt
+df -hT /mnt
+df -h
+df --help
+df -HT /mnt
+df -hT /mnt
+df -T /mnt
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+spec:
+ls
+mkdir nfs
+mkdir nfs-server
+rm -rf nfs
+cd nfs-server/
+sudo nano nfs.yaml
+kubectl create -f nfs.yaml 
+kubectl get pv
+kubectl get sc
+kubectl delete -f nfs.yaml 
+sudo nano pod-nfs.yaml
+kubectl create -f pod-nfs.yaml 
+kubectl get pod
+ls ~/mnt
+ls ./mnt
+cd
+ls /mnt/
+kubectl exec -it nginx-arip-6f6746cb6d-qbst9 bash
+kubectl delete -f /nfs-data/pod-nfs.yaml
+cd nfs-server/
+ls
+kubectl delete -f pod-nfs.yaml 
+sudo nano pod-nfs.yaml
+kubectl create -f pod-nfs.yaml 
+kubectl get pod
+ls /mnt/
+kubectl exec -it pod-using-nfs
+kubectl exec -it pod-using-nfs c
+kubectl exec -it pod-using-nfs sh
+kubectl exec -it pod-using-nfs bash
+exit
+history
+cd nfs-server/f
+cd nfs-server/
+kubectl get pod && ls
+cat pod-nfs.yaml 
+ls /mnt/
+rm /mnt/tes-method1 
+ls /mnt/
+kubectl create -f pod-nfs.yaml 
+kubectl get pod -w
+ls /mnt/
+rm /mnt/tes-method1 
+ssh arip@arip-kube-worker ls /data
+ls /mnt/
+ls /mnt/tes-method1 
+rm /mnt/tes-method1 
+ls /mnt/
+kubectl delete -f pod-nfs.yaml 
+ls /mnt/
+rm /mnt/tes-method1 
+ls /mnt/
+sudo systemctl status nfs-server
+touch /mnt/testfrommaster
+ssh arip@arip-kube-worker ls /mnt/
+ssh arip@arip-kube-worker ls /data/
+cat pod-nfs.yaml 
+cp pod-nfs.yaml directly-pod-nfs.yaml
+ls
+rm pod-nfs.yaml o
+ls
+cat directly-pod-nfs.yaml 
+ls
+ping arip-kube-worker
+c
+ls
+cat l2.yaml 
+cat get_helm.sh 
+ls
+cat address-pool.yaml 
+mkdir metallb
+ls
+mv address-pool.yaml l2.yaml metallb/
+ls
+apt-get install git
+sudo apt-get install git
+git login
+git -h
+git clone https://github.com/rizqiarip/demonstration-lab
+ls
+clear
+history | grep helm
+helm list --all-namespaces
+helm delete -n nfs-provisioner nfs-subdir-external-provisioner
+helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner   --create-namespace --namespace nfs-provisioner --set nfs.server=arip-kube-worker --set nfs.path=/data --set storageClass.defaultClass=true
+helm list --all-namespace
+helm list --all-namespaces
+kubectl get pod
+kubectl get pod -n nfs
+kubectl get pod --all-namespaces
+kubectl get sc
+ls
+cd nfs-server/
+ls
+sudo nano pvc.yaml
+kubectl apply -f pvc.yaml 
+kubectl get pvc
+kubectl get pv
+cat directly-pod-nfs.yaml 
+ls
+sudo nano deployment-pvc-nfs.yaml
+cat deployment-pvc-nfs.yaml 
+history | grep helm install
+history | grep helm
+helm delete -n nfs-provisioner nfs
+helm list --all-namespaces
+kubectl get sc
+helm delete -n nfs-provisioner nfs-subdir-external-provisioner
+helm install nfs nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --set nfs.server=arip-kube-worker --set nfs.path=/data --set storageClass.defaultClass=true
+kubectl get sc
+helm list
+helm list --all-namespaces
+helm delete nfs
+helm install nfs nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --create-namespace --namespace nfs --set nfs.server=arip-kube-worker --set nfs.path=/data --set storageClass.defaultClass=true
+helm list
+helm list -n nfs
+kubectl get sc
+helm repo
+helm repo list
+ls
+cat d
+cat deployment-pvc-nfs.yaml 
+sudo nano deployment-pvc-nfs.yaml 
+cat deployment-pvc-nfs.yaml 
+cat directly-pod-nfs.yaml 
+sudo nano deployment-pvc-nfs.yaml 
+cat deployment-pvc-nfs.yaml 
+sudo nano deployment-pvc-nfs.yaml 
+cat deployment-pvc-nfs.yaml 
+kubectl apply -f deployment-pvc-nfs.yaml 
+kubectl delete -f deployment-pvc-nfs.yaml 
+cat pvc.yaml 
+rm pvc.yaml 
+ls
+sudo nano pv
+sudo nano pvc.yaml
+ls
+kubectl get pvc
+kubectl delete pvc nfs-test
+kubectl apply -f pvc-scnfs.yaml 
+kubectl get pvc
+kubectl apply -f deployment-pvc-nfs.yaml 
+kubectl get pod -w
+kubectl get pvc
+kubectl get pod
+kubectl exec -it nginx-scnfs-app-774784cfc5-2x7cw sh
+cd /mnt/
+ls
+ks
+ls
+touch hello.html
+sudo nano hello.html 
+kubectl exec -it nginx-scnfs-app-774784cfc5-2x7cw
+kubectl exec -it nginx-scnfs-app-774784cfc5-2x7cw sh
+cd
+cd nfs-server/
+ls
+kubectl delete -f deployment-pvc-nfs.yaml 
+kubectl apply -f deployment-pvc-nfs.yaml 
+sudo nano deployment-pvc-nfs.yaml 
+kubectl delete -f deployment-pvc-nfs.yaml 
+kubectl appl -f deployment-pvc-nfs.yaml 
+kubectl apply -f deployment-pvc-nfs.yaml 
+kubectl get pod
+kubectl get pod -w
+sudo nano deployment-pvc-nfs.yaml 
+ls
+cat directly-pod-nfs.yaml 
+cat deployment-pvc-nfs.yaml 
+sudo de
+sudo nano d
+sudo nano deployment-pvc-nfs.yaml 
+kubectl delete -f deployment-pvc-nfs.yaml 
+kubectl apply -f deployment-pvc-nfs.yaml 
+watch kubectl get pod
+sudo nano deployment-pvc-nfs.yaml 
+kubectl delete -f deployment-pvc-nfs.yaml 
+kubectl apply -f deployment-pvc-nfs.yaml 
+kubectl get pod
+kubectl get pod -w
+kubectl exec -it nginx-scnfs-app-774784cfc5-9pb56 sh
+kubectl exec -it nginx-scnfs-app-774784cfc5-9pb56 bash
+cd /mnt/
+ls
+rm -rf default-nfs-test-pvc-5755599c-eb38-4f09-bf14-5997b768f1a2/
+ls
+cd default-pvc-scnfs-pvc-fed1545c-1d2f-415a-bcd2-796c890d8885/
+ls
+sudo nano hallo.html
+cat hallo.html 
+kubectl exec -it nginx-scnfs-app-774784cfc5-9pb56 bash
+cd ..
+ls
+cd
+cd nfs-server/
+ls
+cat deployment-pvc-nfs.yaml 
+kubectl get pod
+kubectl delete -f deployment-pvc-nfs.yaml 
+kubectl get pod
+helm version
+cd
+mkdir ingress
+cd ingress/
+ls
+kubectl version
+helm list
+kubectl get pod -n ingress
+kubectl create deployment --name nginx --image nginx:latest --port 80
+kubectl create deployment nginx --image nginx:latest --port 80
+kubectl get deployment
+kubectl get pod
+kubectl get pod =w
+kubectl get pod -w
+kubectl get svc
+kubectl expose deploment nginx --port 80
+kubectl expose deploument nginx --port 80
+kubectl expose deployment nginx --port 80
+kubectl get svc
+curl 10.99.245.68
+sudo nano ingress.yaml
+kubectl get svc
+kubectl apply -f ingress.yaml 
+rm ingress.yaml 
+ls
+rm ingress.yaml 
+ls
+sudo nano ingress.yaml
+kubectl apply -f ingress.yaml 
+kubectl get ing
+curl test.ingress.nginx
+kubectl get svc
+curl http://test.ingress.nginx
+cat ingress.yaml 
+helm repo list
+helm list --all-namespaces
+helm delete -n ingress ingress
+helm install nginx-ingress ingress-nginx/ingress-nginx --set controller.publishService.enabled=true
+kubectl --namespace default get services -o wide -w nginx-ingress-ingress-nginx-controller
+sudo nano hello-kubernetes-first.yaml
+kubectl create -f hello-kubernetes-first.yaml 
+sudo nano hello-kubernetes-second.yaml
+kubectl create -f hello-kubernetes-second.yaml 
+kubectl get pod -w
+kubectl get pod
+kubectl get pod -w
+kubectl get pod
+sudo nano hello-kubernetes-ingress.yaml
+kubectl apply -f hello-kubernetes-ingress.yaml 
+sudo nano hello-kubernetes-ingress.yaml
+kubectl apply -f hello-kubernetes-ingress.yaml 
+curl hw1.test.nginx.arif
+kubectl get svc
+curl 10.110.14.93
+curl 10.04.68.72
+curl 10.104.68.72
+curl http://h1.test.nginx.arip
+curl http://h1.test.nginx.arif
+kubectl get ing
+ls
+kubectl delete hello-kubernetes-ingress.yaml 
+kubectl delete -f hello-kubernetes-ingress.yaml 
+kubectl get ing
+sudo nano /etc/hosts
+kubectl get svc
+sudo nano /etc/hosts
+curl hw1.test.nginx.arif
+curl h1.test.nginx.arif
+cat /etc/hosts
+curl h1.test.nginx.arip
+sudo nano hello-kubernetes-ingress.yaml 
+sudo nano /etc/hosts
+
+kubectl apply -f hello-kubernetes--i
+kubectl apply -f hello-kubernetes-ingress.yaml 
+kubectl get ing
+curl hw1.test.nginx.arif
+curl hw2.test.nginx.arif
+kubectl --namespace default get services -o wide -w nginx-ingress-ingress-nginx-controller
+kubectl get ing
+ls
+kubectl delete -f hello-kubernetes-first.yaml hello-kubernetes-second.yaml hello-kubernetes-ingress.yaml ingress.yaml 
+kubectl delete -f hello-kubernetes-first.yaml
+kubectl delete -f hello-kubernetes-second.yaml 
+kubectl delete -f hello-kubernetes-ingress.yaml 
+kubectl delete -f ingress.yaml 
+cat ingress.yaml 
+cat hello-kubernetes-ingress.yaml 
+helm list
+helm list --all-namespaces
+helm delete nginx-ingress
+helm repo add nginx-stable https://helm.nginx.com/stable
+helm repo update
+helm install nginx-ingress nginx-stable/nginx-ingress --set rbac.create=true
+helm list
+kubectl get pods --all-namespaces -l app=nginx-ingress-nginx-ingress
+kubectl get pods --all-namespaces -l app=nginx-ingress-nginx-ingress -w
+kubectl get services nginx-ingress-nginx-ingress
+helm list
+helm delete nginx-ingress
+kubectl get pods --all-namespaces -l app=nginx-ingress-nginx-ingress -w
+kubectl get pods --all-namespaces -l app=nginx-ingress-nginx-ingress
+ip a
+helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+helm repo update
+helm install ingress ingress-nginx/ingress-nginx --set controller.service.loadBalancerIP=10.8.60.227 -n ingress --create-namespace
+kubectl get pods --all-namespaces -l app=nginx-ingress-nginx-ingress
+kubectl get pods -n ingress-nginx
+kubectl get pods -a
+kubectl get pods -A
+kubectl get pods -n ingress
+kubectl get svc -A
+kubectl get services nginx-ingress-nginx-ingress
+kubectl get all -n ingress
+kubectl create deployment nginx --image=nginx kubectl expose deploy nginx --port 80 --type LoadBalancer
+kubectl create deployment nginx --image=nginx && kubectl expose deploy nginx --port 80 --type LoadBalancer
+kubectl get deployment
+kubectl delete deployment nginx
+kubectl create deployment nginx --image=nginx && kubectl expose deploy nginx --port 80 --type LoadBalancer
+kubectl get pod -w
+kubectl expose deploy nginx --port 80 --type LoadBalancer
+kubectl get svc
+kubectl delete svc nginx
+kubectl expose deploy nginx --port 80 --type LoadBalancer
+kubectl get svc
+curl 10.100.59.196
+ls
+kubectl get svc
+sudo nano ingress.yaml
+sudo nano 2ingress.yalm
+sudo nano 2ingress.yaml
+cat 2
+cat 2ingress.yaml 
+kubectl create deployment apache --image=apache && kubectl expose deploy apache --port 80 --type LoadBalancer
+kubectl get deploy, svc
+kubectl get deploy,svc
+kubectl get pod -w
+kubectl delete deployment apache && kubectl delete svc apache
+kubectl create deployment apache --image=httpd && kubectl expose deploy apache --port 80 --type LoadBalancer
+kubectl get deploy,svc
+kubectl get ing
+ls
+kubectl apply 2ingress.yaml 
+kubectl apply -f 2ingress.yaml 
+sudo nano 2ingress.yaml 
+kubectl apply -f 2ingress.yaml 
+kubectl get ing
+curl tes.ingress
+sudo nano /etc/hosts
+kubectl get svc
+ip a | grep enp0s3
+ip a
+curl 10.8.60.227
+curl 10.8.60.228
+curl 10.8.60.228:80
+curl 10.8.60.227:80
+curl 10.96.0.1
+kubectl get svc
+curl 10.100.59.196
+curl 10.107.137.177
+sudo nano /etc/hosts
+kubectl get ing
+sudo nano 3ingress.yaml
+kubectl create -f 3ingress.yaml 
+sudo nano 3ingress.yaml
+kubectl create -f 3ingress.yaml 
+sudo nano 3ingress.yaml
+kubectl create -f 3ingress.yaml 
+sudo nano 3ingress.yaml
+kubectl create -f 3ingress.yaml 
+sudo nano 3ingress.yaml
+cat 2ingress.yaml 
+sudo nano 3ingress.yaml
+kubectl create -f 3ingress.yaml 
+kubectl apply -f 3ingress.yaml 
+sudo nano 3ingress.yaml 
+kubectl apply -f 3ingress.yaml 
+sudo nano 3ingress.yaml 
+kubectl apply -f 3ingress.yaml 
+kubectl get ing
+kubectl describe ing ingress-arip
+curl 192.168.101.18122
+kubectl describe ing ingress-arip22
+kubectl get ing
+kubectl delete ing ingress-arip ingress-arip22
+sudo nano 4ingress.yaml
+kubectl apply -f 4ingress.yaml 
+kubectl get ing
+kubectl get all -n ingress
+helm list
+helm list all
+helm list --all-namespaces
+helm delete -n ingress ingress
+helm install nginx-ingress nginx-stable/nginx-ingress --set rbac.create=true
+kubectl get pods --all-namespaces -l app=nginx-ingress-nginx-ingress
+sudo nano tesssss
+ls
+kubectl create -f tesssss.yaml 
+kuectl get ing
+kubectl get ing
+kubcetl delete ing hello-world
+kubectl create -f tesssss.yaml 
+kubectl get ing
+kubectl delete ing hello-world
+kubectl create -f tesssss.yaml 
+kubectl get ing
+kubectl delete ing hello-world
+ls
+helm list --all-namespaces
+helm delete nginx-ingress
+helm repo add metallb https://metallb.github.io/metallb
+helm repo update
+helm repo add metallb https://metallb.github.io/metallb
+cd
+cd ingress/
+cd
+mkdir metallb
+cd metallb/
+ls
+cat address-pool.yaml 
+sudo nano address-pool.yaml 
+helm install metallb metallb/metallb -f address-pool.yaml -n metallb --create-namespace
+helm install metallb metallb/metallb
+helm list --all-namespaces
+helm delete metallb
+sudo nano 1address-pool.yaml 
+kubectl apply -f 1address-pool.yaml 
+sudo nano 1address-pool.yaml 
+kubectl apply -f 1address-pool.yaml 
+helm install metallb metallb/metallb -f 1address-pool.yaml -n metallb --create-namespace
+helm list --all-namesapces
+helm list --all-namespaces
+helm install ingress ingress-nginx/ingress-nginx --set controller.service.loadBalancerIP=10.8.60.229 -n ingress --create-namespace
+kubectl get svc
+kubectl get svc -n ingress
+cat 1address-pool.yaml 
+sudo nano 2add.yaml
+helm list --all-namespaces
+helm delete -n ingress ingress
+helm delete -n metallb metallb
+helm install metallb metallb/metallb -f 2add.yaml -n metallb --create-namespace
+helm install ingress ingress-nginx/ingress-nginx --set controller.service.loadBalancerIP=10.8.60.229 -n ingress --create-namespace
+kubectl get svc
+kubectl get svc -A
+helm delete -n ingress ingress
+helm delete -n metallb metallb
+kubectl get ing
+sudo nano 2add.yaml 
+helm install metallb metallb/metallb -f 2add.yaml -n metallb --create-namespace
+helm install ingress ingress-nginx/ingress-nginx --set controller.service.loadBalancerIP=10.8.60.229 -n ingress --create-namespace
+kubectl get svc -A
+cat 2add.yaml 
+history | grep 10.6.80
+sudo nano 2add.yaml 
+helm delete -n ingress ingress
+kubectl get all -n metallb
+kubectl get all -n metallb-system
+helm delete -n metallb metallb
+cat 2add.yaml 
+helm install metallb metallb/metallb -f 2add.yaml -n metallb --create-namespace
+helm install ingress ingress-nginx/ingress-nginx --set controller.service.loadBalancerIP=10.8.60.229 -n ingress --create-namespace
+kubectl get svc
+kubectl get svc -A
+history
+cat 2add.yaml 
+kubectl get all -n metallb
+helm delete -n ingress ingress
+kubectl get configmap/config -n metallb-system -o yaml
+kubectl get configmap/config -n metallb -o yaml
+helm delete -n ingress ingress
+helm delete -n metallb metallb
+kubectl edit configmap -n kube-system kube-proxy
+helm install metallb metallb/metallb
+kubectl edit configmap -n kube-system kube-proxy
+kubectl get namespaces
+helm delete metallb
+helm list -A
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/namespace.yaml
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/metatllb.yaml
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/metallb.yaml
+wget https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/metallb.yaml
+ls
+sudo nano metallb.yaml 
+kubectl apply -f metallb.yaml
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/metallb.yaml
+kubectl edit configmap config -n metallb-system
+kubectl get all -n metallb-sstem
+kubectl get all -n metallb-system
+kubectl get configmap -A
+kubectl get -A
+kubectl get all -A
+kubectl get pod -A
+helm delete metallb
+kubectl dlete -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/metallb.yaml
+kubectl delete -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/metallb.yaml
+kubectl dlete -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/namespace.yaml
+kubectl delete -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/namespace.yaml
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/namespace.yaml
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/metallb.yaml
+sudo nano metallb.yaml 
+kubectl apply -f metallb.yaml 
+kubectl delete -f metallb.yaml 
+kubectl delete -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/namespace.yaml
+kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.13.7/config/manifests/metallb-native.yaml
+ls
+rm -rf *
+ls
+sudo nano address-pool.yaml
+kubectl create -f address-pool.yaml 
+sudo nano l2.yaml
+kubectl create -f l2.yaml 
+sudo nano l2.yaml 
+kubectl apply -f l2.yaml 
+history | grep ingress
+helm install ingress ingress-nginx/ingress-nginx --set controller.service.loadBalancerIP=10.8.60.229 -n ingress --create-namespace
+kubectl get svc -A
+kubectl get all -n metallb-system
+kubectl create -f address-pool.yaml 
+cat address-pool.yaml 
+sudo nano address-pool.yaml 
+sudo nano l2.yaml 
+kubectl delete -f address-pool.yaml 
+kubectl delete -f l2.yaml 
+kubectl create 0f address-pool.yaml 
+kubectl create -f address-pool.yaml 
+kubectl create -f l2.yaml 
+kubectl get deploy
+kubectl get svc
+kubectl delete svc nginx
+kubectl expose deployment nginx --type LoadBalancer --port 80
+kubectl get svc
+kubectl delete svc apache nginx
+kubectl get svc
+helm list all
+helm list -A
+helm delete -n ingress ingress
+helm install ingress ingress-nginx/ingress-nginx --set controller.service.loadBalancerIP=10.8.60.229 -n ingress --create-namespace
+kubectl get svc -A
+history
+cat address-pool.yaml 
+cat l2.yaml 
+kubectl create deployment nginx-test --image nginx && kubectl expose deployment nginx-test --port 80 --type loadbalancer
+kubectl delete deploy nginx-test && kubectl delete svc nginx-test
+kubectl create deploy nginx-test --image nginx && kubectl expose deploy nginx-test --port 80 --type LoadBalancer
+kubectl get pod
+curl 10.8.60.230
+kubectl delete deploy nginx-test && kubectl delete svc nginx-test
+kubectl create deployment nginx --image nginx && kubectl expose deployment nginx --port 80 --type ClusterIP
+kubectl delete deployment nginx
+kubectl create deployment nginx --image nginx && kubectl expose deployment nginx --port 80 --type ClusterIP
+kubectl get svc
+kubectl create deployment apache --image httpd && kubectl expose deployment apache --port 80 --type ClusterIP
+kubectl get pod
+kubectl get deploy
+kubectl delete dpeloyment apache
+kubectl delete deployment apache
+kubectl create deployment apache --image httpd && kubectl expose deployment apache --port 80 --type ClusterIP
+kubectl get svc
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+ls
+cd
+cd ingress/
+ls
+rm -rf *
+ls
+sudo nano ingress.yaml
+kuebclt get svc
+kubectl get svc
+sudo nano ingress.yaml
+kubectl get ing
+kubectl create -f ingress.yaml 
+kubectl get ing
+kubectl get svc -A
+kubectl delete -f ingress.yaml 
+sudo nano 2ingress.yaml
+kubectl get svc
+sudo nano 2ingress.yaml
+kubectl get ing
+kubectl create -f 2ingress.yaml 
+sudo nano 2ingress.yaml
+kubectl create -f 2ingress.yaml 
+kubectl get ing
+curl 10.8.60.229
+curl nginx.arip
+kubectl create ingress demo --class=nginx --rule ingress.arip.com/=demo:80
+curl ingress.arip.com
+curl 10.8.60.229
+kubectl get ings
+kubectl get ing
+kubectl delete ing ingress-arip
+curl 10.8.60.229
+curl ingress.arip.com
+curl 10.8.70.229
+curl 10.8.60.229
+curl 10.8.60.230
+curl 10.8.60.227
+curl 10.8.60.228
+curl 10.8.60.229
+curl 10.8.60.229:80
+helm list -A
+helm delete -n ingress ingress
+histor
+history
+kubectl get namespace
+kubectl get all -n ingress-nginx
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+kubectl delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+histoy | grep repo
+history | grep repo
+helm repo list
+history | grep helm
+helm install ingress-nginx ingress-nginx/ingress-nginx --namespace ingress-nginx --create-namespace
+kubectl get svc -A
+kubectl get pods --namespace ingress-nginx
+kubectl get pods --namespace ingress
+helm list -A
+helm delete ingress-nginx -n ingress-nginx
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ls
+kubectl get svc -A
+kubectl get pods --namespace ingress-nginx
+kubectl get service ingress-nginx-controller --namespace=ingress-nginx
+curl kubectl create ingress demo --class=nginx --rule ingress-arip.com/=demo:80
+kubectl create ingress demo --class=nginx --rule ingress-arip.com/=demo:80
+kubectl get ing
+kubectl delete ing  demo
+kubectl get ing
+kubectl create ingress demo --class=nginx --rule ingress-arip.com/=demo:80
+kubectl get pod
+kubectl delete ing demo
+kubectl get svc
+kubectl create ingress demo --class=nginx --rule ingress-arip.com/=nginx:80
+kubectl get ing
+kubectl delete ing demo
+kubectl create ingress demo --class=nginx --rule ingress-arip.com/=demo:80
+kubectl get ing
+kubectl get svc -A
+kubectl get pod -n ingress-nginx
+kubectl get svc -A
+kubectl get ing
+kubectl delete deploy apache && kubectl delete svc apache
+kubectl get ing
+kubectl get deploy,svc
+kubectl get svc
+kubectl delete svc nginx
+kubectl expose deployment nginx --port 80 --type LoadBalancer
+kubectl get svc
+kubectl get ing
+helm list -A
+kubectl get service ingress-nginx-controller --namespace=ingress-nginx
+kubectl get ing
+kubectl get svc
+kubectl delete svc nginx
+kubectl create ingress demo --class=nginx --rule [DNS_NAME]/=demo:80
+kubectl create ingress demo --class=nginx --rule k8s.ingress.arip/=demo:80
+kubectl delete ing demo
+kubectl create ingress demo --class=nginx --rule k8s.ingress.arip/=demo:80
+kubectl get ing
+kubectl get ing -w
+curl k8s.ingress.arip
+curl 10.8.60.229
+sudo nano 3ingress.yaml
+kubectl create -f 3ingress.yaml 
+kubectl get ing
+kubectl delete ing demo
+kubectl get ing
+kubectl get ing -w
+curl myservicea.foo.org
+curl 10.8.60.229
+curl 10.8.60.229/myservicea.foo.org
+curl 10.8.60.229/myservicea.foo.or
+history | grep apply
+kubectl delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+git clone https://github.com/nginxinc/kubernetes-ingress.git --branch v2.4.0
+ls
+cd kubernetes-ingress/
+ls
+cd ..
+git clone https://github.com/nginxinc/kubernetes-ingress.git --branch v2.4.0
+rm -rf kubernetes-ingress/
+ls
+git clone https://github.com/nginxinc/kubernetes-ingress.git --branch v2.4.0
+cd kubernetes-ingress/deployments/helm-chart
+ls
+helm repo add nginx-stable https://helm.nginx.com/stable
+helm install ingress nginx-stable/nginx-ingress
+cd
+kubectl get pods -n ingress-nginx
+kubectl get pods -n ingress
+kubectl get svc -A
+kubectl get svc
+kubectl create deploment apache --image httpd
+kubectl create deployment apache --image httpd
+kubectl expose deploy nginx --port 80 --type ClusterIP
+kubectl expose deploy apache --port 80 --type ClusterIP
+kubectl get svc
+kubectl get pod
+cd ingress/
+ls
+sudo nano 4ingress.yaml
+cd ingress/
+ls
+sudo nano 4ingress.yaml
+kubectl create -f 4ingress.yaml 
+kubectl get ing
+kubectl delete ing ingress-myservicea ingress-myserviceb
+kubectl get ing
+kubectl delete ing arip-ingress
+sudo nano 4ingress.yaml
+kubectl apply -f 4ingress.yaml 
+kubectl get ings
+kubectl get ing
+curl 10.8.60.229
+curl 10.8.60.229/nginx
+curl 10.8.60.229/apache
+cat 4ingress.yaml 
+curl arip.example.com
+sudo nano /etc/hosts
+curl arip.example.com
+curl arip.example.com/nginx
+curl arip.example.com/apache
+curl 10.8.60.229/
+kubectl delete ing arip-ingress
+kubectl get ing
+sudo nano 5ingress.yaml
+kubectl create -f 5ingress.yaml 
+sudo nano 5ingress.yaml
+kubectl create -f 5ingress.yaml 
+kubectl get ing
+kubectl get ing -w
+kubectl get ing
+sudo nano 5ingress.yaml 
+kubectl apply -f 5ingress.yaml 
+cat 5ingress.yaml 
+kubectl get ing
+kubectl get svc
+kubectl delete svc nginx apache
+kubectl expose deployment nginx --port 80 --type NodePort
+kubectl expose deployment apache --port 80 --type NodePort
+kubectl get ing
+curl 10.8.60.229
+curl nginx.arip
+curl 10.8.60.229
+sudo nano /etc/hosts
+curl nginx.arip
+curl apache.arip
+kubectl get svc
+history
+helm list -A
+kubectl get svc -A | grep ingress
+kubectl get svc -A
+kubectl get svc ingress-nginx-ingress
+history
+cd ingress/
+ls
+cat 5ingress.yaml 
+kubectl get ing
+kubectl get svc ingress-nginx-ingress
+ls
+kubectl get svc
+history
+cat 5ingress.yaml 
+kubectl get ing
+cat 5ingress.yaml 
+ls
+rm ingress.yaml 
+cp 5ingress.yaml ingress.yaml
+ls
+cat ingress.yaml 
+ls
+rm 2ingress.yaml 3ingress.yaml -y
+sudo rm 2ingress.yaml 3ingress.yaml
+ls
+cat 4ingress.yaml
+cat 4ingress.yaml.save 
+sudo cat 4ingress.yaml.save 
+ls
+rm 4ingress.yaml.save 
+ls
+rm 4ingress.yaml 5ingress.yaml 
+ls
+rm 5ingress.yaml 
+s
+ls
+cat ingress.yaml 
+kubectl get ing
+curl nginx.arip
+curl apache.arip
+curl nginx.arip/$1
+curl nginx.arip/$
+curl nginx.arip
+curl nginx.arip/$1
+curl nginx.arip/1
+curl apache.arip
+curl apache.arip/
+curl apache.arip/$1
+curl apache.arip/$
+curl apache.arip/1
+ls
+kubectl get ingressclass
+cat /etc/hosts
+kubectl create deployment nginx-hello --image nginxdemos/nginx-hello
+kubectl get pod
+kubectl get pod -w
+kubectl expose deploment nginx-hello --port 80 --type NodePort
+kubectl expose deployment nginx-hello --port 80 --type NodePort
+kubectl get svc
+curl 10.97.180.253
+curl 10.111.240.22
+curl 10.111.240.22:32330
+curl 10.111.240.22
+kubectl get svc
+curl 10.111.240.22
+kubectl delete svc nginx-hello
+kubectl expose deployment nginx-hello --port 80 --type ClusterIP
+kubectl get svc
+curl 10.98.233.251
+kubectl delete nginx-hello
+kubectl delete svc nginx-hello
+kubectl delete deployment hello-nginx
+kubectl delete deployment nginx-hello
+kubectl create deployment nginx-hello --image hello-world
+kubectl get pod -w
+kubectl delete deployment nginx-hello
+cd
+ls
+cd nfs-server/
+ls
+cat d
+cat deployment-pvc-nfs.yaml 
+kubectl get sc
+kubectl get pvc
+kubectl create -f deployment-pvc-nfs.yaml 
+kubectl get pod
+kubectl get pod -w
+kubectl get deployment
+kubectl expose deployment nginx-scnfs-app --port 80 --type LoadBalancer
+kubeclt get svc
+kubectl get svc
+curl 10.8.60.230
+cd /mnt/
+ls
+cd default-pvc-scnfs-pvc-fed1545c-1d2f-415a-bcd2-796c890d8885/
+ls
+cat hallo.html 
+sudo nano index.html
+curl 10.8.60.230
+kubectl get ing
+cd
+cd ingress/
+ls
+cp ingress.yaml test-combine-ingress.yaml
+sudo nano test-combine-ingress.yaml 
+kubectl get svc
+cat test-combine-ingress.yaml 
+kubectl apply -f test-combine-ingress.yaml e
+kubectl apply -f test-combine-ingress.yaml
+kubectl get ing
+kubectl get svc
+curl 10.110.126.197
+curl 108.60.230
+curl 10.8.60.230
+sudo nano test-combine-ingress.yaml 
+kubectl delete -f test-combine-ingress.yaml 
+kubectl create -f test-combine-ingress.yaml 
+kubectl ge ting
+kubetcl get ing
+kubectl get ing
+curl nginx.arip
+curl nginx.arip/scnfs
+curl nginx.arip/scnfs/
+cat test-combine-ingress.yaml 
+kubectl get svc
+kubectl delete svc nginx-scnfs-app
+kubectl expose deploment nginx-scnfs-app --port 80 --type NodePort
+kubectl expose deployment nginx-scnfs-app --port 80 --type NodePort
+kubectl get svc
+curl 10.109.34.63
+kubectl get ing
+sudo nano test-combine-ingress.yaml 
+cat test-combine-ingress.yaml 
+sudo nano test-combine-ingress.yaml 
+kubectl apply -f test-combine-ingress.yaml 
+sudo nano test-combine-ingress.yaml 
+kubectl apply -f test-combine-ingress.yaml 
+kubectl get svc
+curl 10.109.34.63
+sudo nano test-combine-ingress.yaml 
+kubectl apply -f test-combine-ingress.yaml 
+sudo nano test-combine-ingress.yaml 
+kubectl apply -f test-combine-ingress.yaml 
+sudo nano test-combine-ingress.yaml 
+kubectl apply -f test-combine-ingress.yaml 
+sudo curl nginx.arip.com/scnfs
+sudo curl nginx.arip.com/scnfs/
+curl nginx.arip.com/scnfs/
+curl nginx.arip
+curl nginx.arip/scnfs
+curl nginx.arip/scnfs/*
+curl nginx.arip/scnfs/
+sudo nano test-combine-ingress.yaml 
+kubectl apply -f test-combine-ingress.yaml 
+sudo nano /etc/hosts
+curl nginx.arip/scnfs
+cat /etc/hosts
+cat test-combine-ingress.yaml 
+sudo nano test-combine-ingress.yaml 
+kubectl get pod
+kubectl get svc
+kubectl delete nginx-scnfs-app
+kubectl delete svc nginx-scnfs-app
+kubectl expose deployment nginx-scnfs-app --port 80 --type LoadBalancer
+kubectl get svc
+kubectl get ing
+kubectl apply -f test-combine-ingress.yaml 
+sudo nano test-combine-ingress.yaml 
+kubectl get svc
+kubectl delete svc apache
+kubectl expose deployment apache --port 80 --type LoadBalancer
+kubectl get svc
+cat test-combine-ingress.yaml 
+sudo nano ingress.yaml 
+cd
+clear
+ls
+cat get_helm.sh 
+ls
+clear
+ls
+mkdir wordpress
+cd wordpress/
+kubectl create -f https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/application/wordpress/mysql-deployment.yaml
+kubectl get svc
+wget https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/application/wordpress/mysql-deployment.yaml
+ls
+kubectl delete -f mysql-deployment.yaml 
+sudo nano w
+ls
+kubetcl create -f mysql-deployment.yaml 
+wget https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/application/wordpress/wordpress-deployment.yaml
+ls
+kubectl create -f wordpress-deployment.yaml 
+kubectl get svc
+kubectl delete svc apache
+kubectl expose deployment apache --port 80 --type NodePort
+kubectl get svc
+top
+ls
+kubectl get svc
+sudo nano ~/ingress/ingress.yaml 
+kubectl get secrets,pvc
+cat <<EOF >./kustomization.yaml
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=YOUR_PASSWORD
+EOF
+
+sudo nano kustomization.yaml 
+cat <<EOF >>./kustomization.yaml
+resources:
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
+EOF
+
+cat kustomization.yaml 
+kubectl apply -k .
+kubetcl get svc
+kubectl get svc
+sudo nano /etc/hosts
+curl 10.8.60.231
+curl 10.110.227.196
+kubectl delete -k ./
+kubectl apply -k ./
+kubectl get pod -w
+kubectl get svc
+curl 10.102.108.208
+curl 10.8.60.231
+kubectl get pvc
+kubectl delete -k ./
+ls
+mkdir failwordpress
+mv kustomization.yaml mysql-deployment.yaml wordpress-deployment.yaml failwordpress/
+ls
+sudo nano wp-volume.yaml
+kubectl apply wp-volume.yaml 
+kubectl apply -f wp-volume.yaml 
+kubectl get pv pvc
+kubectl get pv,pvc
+sudo nano wp.yaml
+kubectl get pod
+kubectl apply -f wp.yaml 
+kubectl get pod
+kubectl get pod -w
+kubectl describe pod wordpress-54c4bbd575-hw4x2
+kubectl get pod
+ls
+kubectl delete -f wp.yaml 
+ls
+kubectl delete -f wp-volume.yaml 
+cat <<EOF >./kustomization.yaml
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=wparip123
+EOF
+
+curl -LO https://k8s.io/examples/application/wordpress/mysql-deployment.yaml
+curl -LO https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml
+ls
+rm -rf wp-volume.yaml wp.yaml 
+ls failwordpress/
+cat <<EOF >>./kustomization.yaml
+resources:
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
+EOF
+
+kubectl apply -k ./
+kubectl get secrets
+kubectl get pvc
+kubectl get pods
+kubectl get services wordpress
+curl 10.102.145.48
+curl 10.102.145.48:30585
+kubectl get svc
+kubectl delete -k ./
+echo -n 'arip123' | base64
+sudo nano namespace_secret.yaml
+kubectl create -f namespaces_secret.yaml
+cp namespace_secret.yaml namespaces_secret.yaml 
+rm -rf namespace_secret.yaml 
+kubectl create -f namespaces_secret.yaml
+showmount -e arip-kube-worker
+sudo nano pv-wordpress-mysql.yaml
+kubectl create -f pv-wordpress-mysql.yaml
+cd
+sudo mkdir /mysql
+sudo mkdir /html
+sudo mount -t nfs arip-kube-worker:/mysql /mysql
+sudo mount -t nfs arip-kube-worker:/mysql /mysqlsda
+sudo mount -t nfs arip-kube-worker:/mysqlsd /mysqlsda
+sudo mount -t nfs arip-kube-worker:/mysqlsd /mysql
+sudo mount -t nfs arip-kube-worker:/html /html
+df -hT /html
+df -hT /mysql
+df -hT /mnt
+ls /mnt/
+cd /mnt/
+df -l
+df -T
+df -T .
+df -l .
+ls -l .
+date
+ls archived-default-mysql-pv-claim-pvc-1ad4d719-ac51-4f52-8388-830035e9559e/
+cd
+cd wordpress/
+ls
+rm -rf kustomization.yaml mysql-deployment.yaml wordpress-deployment.yaml 
+ls
+cat pv-wordpress-mysql.yaml 
+sudo nano pvc-wordpress-mysql.yaml
+kubectl create -f pv
+kubectl create -f pvc-wordpress-mysql.yaml 
+sudo nano mysql-deploy.yaml
+kubectl create -f mysql-deploy.yaml 
+sudo nano wordpress-deploy.yaml
+kubectl create 0f wordpress-deploy.yaml 
+kubectl create -f wordpress-deploy.yaml 
+kubectl get svc -n wordpress
+kubectl get pv,pvc -n wordpress
+ls /mysql/
+cd
+ls /html/
+ls /mysql ; ls /html
+kubectl get pod -n wordpress
+ls /mysql/
+rm /mysql/tes 
+sudo rm /mysql/tes 
+ping arip-kube-worker
+cat pv-w
+cd wordpress/
+cat pvw-
+cat pv-wordpress-mysql.yaml 
+sudo nano pv-wordpress-mysql.yaml 
+ls
+kubectl delete -f wordpress-deploy.yaml 
+kubectl delete -f mysql-deploy.yaml 
+kubectl delete -f pvc-wordpress-mysql.yaml 
+kubectl delete -f pv-wordpress-mysql.yaml 
+kubectl get secret -n wordpress
+kubectl create -f pv-wordpress-mysql.yaml 
+kubectl create -f pvc-wordpress-mysql.yaml 
+kubectl create -f mysql-deploy.yaml 
+kubectl create -f wordpress-deploy.yaml 
+kubectl get pod -n wordpres
+kubectl get pod -n wordpress
+kubectl get pod -n wordpress -w
+ls /mnt/
+ls /mysql/
+history | grep mount
+ls /mnt/wordpress-mysql-persistent-storage-pvc-c7af6552-5a99-4729-a61c-e2556fa713b1/
+ls /mnt//wordpress-wordpress-persistent-storage-pvc-72d5cff6-6224-4045-a5c4-994b78d543ce/
+kubectl get pod -n wordpress
+kubectl exec -it wordpress-55456b9bcc-tspcz -n wordpress bash
+ls /mnt//wordpress-wordpress-persistent-storage-pvc-72d5cff6-6224-4045-a5c4-994b78d543ce/
+history | grep nfs
+helm list
+helm list -A
+history | grep nfs
+helm install nfs-nopath nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --create-namespace --namespace    nfs2 --set nfs.server=arip-kube-worker --set storageClass.defaultClass=true
+helm install nfs-nopath nfs-subdir-external-provisioner/nfs-subdir-external-provisioner --create-namespace \--namespace nfs2 --set nfs.server=arip-kube-worker --set storageClass.defaultClass=true
+sudo nano sc-nopath.yaml
+kubectl create -f sc-nopath.yaml 
+kubectl get sc
+kubectl patch storageclass nopath-nfs -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"false"}}}'
+kubectl get sc
+kubectl patch storageclass nopath-nfs -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
+kubectl get sc
+kubectl patch storageclass nfs-client -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"false"}}}'
+kubectl get sc
+ls
+kubectl delete -f wordpress-deploy.yaml 
+kubectl delete -f mysql-deploy.yaml 
+kubetcl delete -f pvc-wordpress-mysql.yaml 
+kubectl delete -f pvc-wordpress-mysql.yaml 
+kubectl delete -f pv-wordpress-mysql.yaml 
+ls /mysql/
+rm /mysql/tess 
+sudo rm /mysql/tess 
+kubectl create -f namespaces_secret.yaml 
+kubectl create -f pv
+kubectl create -f pv-wordpress-mysql.yaml 
+kubectl create -f pvc-wordpress-mysql.yaml 
+kuebtcl create -f mysql-deploy.yaml 
+kubetcl create -f mysql-deploy.yaml 
+kubectl create -f mysql-deploy.yaml 
+kubectl create -f wordpress-deploy.yaml 
+kubectl get pod -n wordpress
+kubectl get pod -n wordpress -w
+showmount -e arip-kube-worker
+kubectl get pod -n wordpress -w
+kubectl get pv
+kubectl create -f pv-wordpress-mysql.yaml 
+kubectl get pv -n wordpress
+kubectl get pvc
+kubectl get pvc -n wordpress
+kubectl get sc
+exportfs -u /
+sudo exportfs -u /
+sudo exportfs -u - f/
+sudo exportfs -u -f /
+showmount -e
+kubectl get sc
+kubectl patch storageclass nfs-client -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
+kubectl patch storageclass nopath-nfs -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"false"}}}'
+kubectl get sc
+kubectl delete sc nopath-nfs
+ls
+kubectl delete -f wordpress-deploy.yaml 
+kubectl delete -f mysql-deploy.yaml 
+kubectl delete -f pv
+kubectl delete -f pvc-wordpress-mysql.yaml 
+kuebctl delete -f pv-wordpress-mysql.yaml 
+kubectl delete -f pv-wordpress-mysql.yaml 
+kubectl create -f pv-wordpress-mysql.yaml w
+kubectl create -f pv-wordpress-mysql.yaml 
+kubectl create -f pvc-wordpress-mysql.yaml 
+kubectl create -f mysql-deploy.yaml 
+kubectl create -f wordpress-deploy.yaml 
+kubectl get pod -n wordpress
+ls /mnt/
+touch /mnt/wordpress-mysql-persistent-storage-pvc-c224f35d-a64f-4a3c-8f7b-56af86894d5e/tesfrommaster
+kubectl get pod -n wordpress
+kubectl exec -it wordpress-mysql-5f6894b97-dvrzd bash
+kubectl exec -it wordpress-mysql-5f6894b97-dvrzd bash -n wordpress
+cat namespaces_secret.yaml 
+cat pv-wordpress-mysql.yaml 
+ls /mnt/
+cd /mnt/wordpress-wordpress-persistent-storage-pvc-973839eb-7c24-45b9-8be0-7beea6ead40a/ && ls
+touch frommaster
+cd
+kubectl get pod -n wordpress
+kubectl exec -it wordpress-55456b9bcc-9zg6n bash -n wordpress
+kubectl exec -it wordpress-55456b9bcc-9zg6n bash -n wordpress -c "ls"
+kubectl exec -it wordpress-55456b9bcc-9zg6n bash -n wordpress -c ls
+kubectl exec -it wordpress-55456b9bcc-9zg6n bash -n wordpress  ls
+kubectl exec -it wordpress-55456b9bcc-9zg6n bash -n wordpress
+ls
+cd wordpress/
+cat wordpress-deploy.yaml 
+cat pvc-wordpress-mysql.yaml 
+history
+cat mysql-deploy.yaml 
+history
+kubectl get svc
+kubectl get svc -n wordpress
+curl 10.96.15.162
+curl 10.96.15.162:30001
+kubectl ing
+kubectl get ing
+ls
+rm sc-nopath.yaml 
+ls
+cd
+cd ingress/
+ls
+sudo nano ingress.yaml n
+kubectl get svc -n wordpress
+kubectl apply -f ingress.yaml 
+kubectl get ing
+sudo nano ingress.yaml 
+kubectl apply -f ingress.yaml 
+kubectl get ing
+sudo nano ingress.yaml 
+curl 10.96.15.162
+sudo nano ingress.yaml 
+curl 10.96.15.162
+sudo nano ingress.yaml 
+kubectl apply -f ingress.yaml 
+sudo nano /etc/hosts
+curl 10.96.15.162
+curl wordpress.arip
+ls
+wget https://github.com/rizqiarip/repository-file/pv.yaml
+wget https://github.com/rizqiarip/repository-file/blob/main/namespace-secret.yaml
+ls
+cat namespace-secret.yaml 
+rm namespace-secret.yaml 
+history | grep github
+wget https://raw.githubusercontent.com/rizqiarip/repository-file/manifests/pv.yaml
+wget https://raw.githubusercontent.com/rizqiarip/repository-file/pv.yaml
+ls
+wget https://raw.githubusercontent.com/rizqiarip/repository-file/main/namespace-secret.yaml
+ls
+cat namespace-secret.yaml 
+rm namespace-secret.yaml 
+cat ingress.yaml 
+cat /etc/hosts
+kubectl get pod -n wordpress
+kubectl exec -it wordpress-55456b9bcc-9zg6n bash -n wordpress
+ls /mnt/wordpress-wordpress-persistent-storage-pvc-973839eb-7c24-45b9-8be0-7beea6ead40a/
+clear
+kubectl get pod -n wordpress/
+kubectl get pod -n wordpress
+kubectl get svc
+/mnt/wordpress-wordpress-persistent-storage-pvc-973839eb-7c24-45b9-8be0-7beea6ead40a/
+ls /mnt/wordpress-wordpress-persistent-storage-pvc-973839eb-7c24-45b9-8be0-7beea6ead40a/
+ls /mnt/
+ls /mysql/
+showmount -e arip-kube-worker
+kubectl 
+kubectl get pvc -n wordpress
+kubectl get pv -n wordpress
+kubectl get svc
+top
+r
+top
+kubectl get svc -A
+kubectl get deployment -A
+kubectl get deployment -n default
+top
+rm namespace-secret.yaml ip a
+ip a
+kubectl get svc
+ls
+cat metallb/address-pool.yaml 
+kubectl create deployment nginx-231 --image nginx
+kubeclt expose deployment nginx-231 --port 80 --type LoadBalancer
+kubectl expose deployment nginx-231 --port 80 --type LoadBalancer
+kubectl get svc
+curl 10.8.60.21
+curl 10.8.60.231
+sudo nano /etc/hoss
+sudo nano /etc/hosts
+kubectl get svc
+kubectl get pod
+kubectl exec -it nginx-scnfs-app-774784cfc5-lbntz
+kubectl exec -it nginx-scnfs-app-774784cfc5-lbntz bahs
+kubectl exec -it nginx-scnfs-app-774784cfc5-lbntz bash
+kubectl get pod 
+kubectl exec -it nginx-231-5459fb7c46-55rnp bash
+history | grep inress
+history | grep nfs
+hstory 
+history | grep nfs
+ls
+ip a
+top
+ip a
+nmtui
+nmcli
+ip a
+ping 10.8.60.226
+ls
+exit
+docker ps
+Gitlab done - Kubernetes done - Jenkins belumGitlab done - Kubernetes done - Jenkins belum
+sudo docker ps
+sudo docker run -d -p 8080:8080 -p 50000:50000 --name my-jenkins --network=host jenkins/jenkins
+sudo docker p
+sudo docker ps
+sudo docker exec -it dc6ad880a995 bash
+kubectl create namespace jenkins
+kubectl get ns
+kubectl create sa jenkins -n jenkins
+kubectl get sa -n jenkins
+kubectl create rolebinding jenkins-admin-binding --clusterrole=admin --serviceaccount=jenkins:jenkins --namespace=jenkins
+kubectl get ns,sa,rolebinding -n jenkins
+kubectl get ns
+kubectl get sa -n enkins
+kubectl get sa -n jenkins
+history
+kubectl get ns,sa,rolebinding -n jenkins
+kubectl describe secret $(kubectl describe sa jenkins -n jenkins | grep Token | awk '{print $2}') -n jenkins
+kubectl get secret -n jenkins
+kubectl describe secret $(kubectl describe sa jenkins -n jenkins | grep Token | awk '{print $2}') -n jenkins
+kubetl get sa jenkins -n jenkins
+kubectl get sa jenkins -n jenkins
+kubectl get ns,sa,rolebinding -n jenkins
+kubectl get sa,secret -n jenkins
+kubectl describe secret jenkins -n jenkins
+cat secret.yaml 
+kubectl describe secret $(kubectl describe sa jenkins -n jenkins | grep Token | awk '{print $2}') -n jenkins
+kubectl cluster-version
+kubectl --help
+kubectl cluster-info
+kubectl get all -n jenkins
+kubectl get --all -n jenkins
+kubectl get all
+kubectl get ns
+kubectl get sa -n jenkins
+kubectl get --all-namespaces
+kubectl get -A
+kubectl get all -n jenkins
+kubectl get ns,rolebinding,sa,secret -n jenkins
+kubectl describe secret $(kubectl describe sa jenkins -n jenkins | grep Token | awk '{print $2}') -n jenkins
+sudo docker ps
+sudo docker stop dc6ad880a995
+sudo docker start dc6ad880a995
+sudo docker ps
+kubectl get pod -w
+top
+kubectl get pod -w
+kubectl get pod
+kubectl get pod -n jenkins
+kubectl logs jenkins-tes-1-wt2rn-cw2jb-b479f -n jenkins
+]
+kubectl get pod -n jenkins
+kubectkubectl kkk
+sudo docker ps
+kubectl get pod
+kubectl get pod -n wordpress
+kubectl get po --all-namespaces
+kubectl get svc --all-namespaces
+ls
+cd metallb/
+ls
+cat l2.yaml 
+cat address-pool.yaml 
+kubectl get IPAddressPool
+kubectl get IPAddressPool -n metallb
+kubectl get all -n metallb
+kubectl get --all -n metallb
+kubectl get -all -n metallb
+kubectl get pool -n metallb
+history | grep metallb
+kubectl get all -n metallb-system
+kubectl create -f address-pool.yaml 
+kubectl get ipaddresspools -n metallb-system
+ls
+cd ..
+ls
+history
+history | grep docker
+sudo docker images
+sudo docker pull jenkins/jenkins
+sudo docker images
+sudo docker ps
+history | grep docker
+sudo docker network ps
+sudo docker network ls
+sudo docker describe network host
+sudo docker --help
+sudo docker inspect network host
+ls
+mkdir jenkins
+ls
+cd jenkins/
+git clone https://github.com/rizqiarip/simple-java-maven-app.git
+ls
+cd simple-java-maven-app/
+ls
+sudo nano Jenkinsfile
+git add .
+git commit -m "add jenkinsfile"
+git config --global user.name "rizqiarip"
+git commit -m "add jenkinsfile"
+git config --global user.email "rizqiarifwibowo19@gmail.com"
+git commit -m "add jenkinsfile"
+git push
+git config --global user.name "rizqiarip"
+git config --global user.name
+git config --global user.email
+git push
+ls
+git push
+git config credential.helper store
+git push
+git login
+github login
+clear
+cd ..
+rm simple-java-maven-app/
+rm -f simple-java-maven-app/
+rm -r simple-java-maven-app/
+rm -Rf simple-java-maven-app
+ls
+git remote set-url origin git@github.com:rizqiarip/simple-java-maven-app.git
+git clone https://github.com/rizqiarip/simple-java-maven-app.git
+ls
+cd s``
+cd simple-java-maven-app/
+ls
+touch Jenkinsfile
+git add .
+git commit -m "add jenkinsfile"
+git push
+cat .git/config 
+git remote -v
+vgit remote set-url origin git@github.com:rizqiarip/simple-java-maven-app.git
+t remote set-url origin git@github.com:rizqiarip/simple-java-maven-app.git
+git remote set-url origin git@github.com:rizqiarip/simple-java-maven-app.git
+ls
+git push
+git add .
+git commit 
+git commit "add jenkinsfile"
+git commit -m "add jenkinsfile"
+ls
+git push
+sudogit push
+sudo git push
+ls
+cat ~/.ssh/id_rsa.pub 
+git puah
+git push
+ls
+rm tes 
+sudo nano Jenkinsfile 
+cat Jenkinsfile 
+git add .
+git commit -m "edit jenkinsfile"
+git push
+nano Jenkinsfile 
+git add Jenkinsfile
+git commit -m "edit jenkinsfile"
+git push
+rm Jenkinsfile 
+sudo nano Jenkinsfile
+sudo docker pull sonarqube
+history | grep docker
+sudo docker ps
+docker rename my-jenkins jenkins
+sudo docker rename my-jenkins jenkins
+suo docker ps
+sudo docker ps
+docker run -d --name sonarqube -p 9000:9000 sonarqube
+sudo docker run -d --name sonarqube -p 9000:9000 sonarqube
+sudo docker ps
+sudo docker run -d -p 9000:9000 --name sonarqube --network=host sonarqube
+sudo docke ps -a
+sudo docker ps -a
+sudo docker delete sonarqube
+sudo docker rm sonarqube
+sudo docker ps -a
+sudo docker run -d -p 9000:9000 --name sonarqube --network=host sonarqube
+sudo docker ps
+sudo docker port ps
+sudo docker port ls
+sudo docker port jenkins
+sudo docker port jenkins ls
+sudo docker port jenkins 8000/tcp
+sudo docker port jenkins 8080/tcp
+sudo docker port jenkins 8080/udp
+sudo docker port jenkins 8080
+sudo docker port jenkins 50000/tcp
+sudo docker port jenkins 50000/udp
+docker container ls
+sudo docker container ls
+docker container ls --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}" -a
+sudo docker container ls --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}" -a
+histor
+history
+sudo docker ps
+sudo docker rm sonarqube
+sudo docker stop sonarqube
+sudo docker rm sonarqube
+sudo docker ps
+docker run -d --name sonarqube -p 9000:9000 sonarqube
+sudo docker run -d --name sonarqube -p 9000:9000 sonarqube
+sudo docker run -d --name sonarqube -p 9001:9000 sonarqube
+sudo docker rm sonarqube
+sudo docker run -d --name sonarqube -p 9001:9000 sonarqube
+sudo docker rm sonarqube
+sudo service docker status
+sudo systemctl docker status
+sudo systemctl status docker
+sudo docker ps -a
+sudo systemctl restart docker
+sudo docker ps 
+sudo docker ps -a
+sudo docker start jenkins
+sudo docker ps
+sudo docker run -d --name sonarqube -p 9000:9000 sonarqube
+sudo docker ps
+sudo docker exec -it jenkins bash
+cd jenkins/
+cd nodejs/
+ls
+cat package.json 
+ls
+sudo nano Dockerfile
+sudo nano dockerignore
+rm -f dockerignore 
+sudo nano dockerignore
+cat  dockerignore 
+docker build -t rizqiarip/nodejs .
+sudo docker build -t rizqiarip/nodejs .
+sudo docker build -t rizqiarif/nodejs .
+kubectl get pod
+kubectl get svc
+kubectl get ---all-namespaces
+kubectl get pod
+kubectl get pod -n jenkins -w
+kubectl get pod -w -n jenkins
+watch kubectl get pod -n jenkins
+ls
+cd jenkins/
+ls
+cd nodejs/
+sudo docker image
+sudo docker images
+kubectl create deployment mysql --image mysql:8.0 -e MYSQL_ROOT_PASSWORD=arip123
+kubectl -h
+kubectl create deployment mysql --image mysql:8.0 -env MYSQL_ROOT_PASSWORD=arip123
+kubectl create deployment mysql --image mysql:8.0 --env MYSQL_ROOT_PASSWORD=arip123
+sudo docker images
+ls
+cd tes-nodejs/
+cat ls
+ls
+cat package.json 
+sudo nano ~/.ssh/authorized_keys 
+nano ~/.ssh/authorized_keys 
+sudo docker ps
+sudo docker build -t rizqiarif/nodejs:alpinev1 .
+cd ..
+mkdir nodealpine
+cd nodealpine/
+ls
+cd ~/jenkins/nodejs/tes-nodejs/ls
+cd ..
+ls
+cd tes-nodejs/
+ls
+cp package.json package-lock.json server.js Dockerfile dockerignore ~/jenkins/nodejs/nodealpine/
+cd ..
+cd nodealpine/
+ls
+sudo docker build -t rizqiarif/nodejs:alpinev1 .
+ls
+ping 8.8.8.8
+cd jenkins/nodejs/
+ls
+cd tes-nodejs/
+ls
+cat package
+cat package.json 
+ls
+s
+sudo nano package.json 
+ls
+sudo nano server.js
+sudo nano Dockerfile 
+sudo docker build -t rizqiarif/nodejs:itsalpinev1
+sudo docker build -t rizqiarif/nodejs:itsalpinev1 .
+lts-alpine3.16
+sudo docker login
+sudo docker build -t rizqiarif/nodejs:itsalpinev1 .
+sudo docker pull lts-alpine3.16
+sudo nano Dockerfile 
+sudo docker build -t rizqiarif/nodejs:itsalpinev1 .
+sudo nano Dockerfile 
+sudo docker build -t rizqiarif/nodejs:itsalpinev1 .
+sudo su
+kubectl cluster-info
+kubectl get -A
+kubectl get --all-namespaces
+kubectl get pod
+kubectl get pod -a
+kubectl get pod -A
+history | grep calico
+history | grep cal
+history | grep kubectl
+history --help
+history -n
+history
+history *
+history `*
+kubectl
+;
+history -h
+history --help
+history -a
+ls 
+history -a > history
